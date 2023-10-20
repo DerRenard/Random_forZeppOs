@@ -1,0 +1,59 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 26029,
+    "_comment": "It's in ZeppApp",
+    "appName": "Yan Application",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "empty app"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "336x384-amazfit-gts-4-mini": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "name": "Provence",
+          "deviceSource": 246
+        },
+        {
+          "name": "ProvenceW",
+          "deviceSource": 247
+        }
+      ],
+      "designWidth": 336
+    }
+  },
+  "_comment": "It's on watch",
+  "i18n": {
+    "en-US": {
+      "appName": "Yan Preview" 
+    }
+  },
+  "defaultLanguage": "en-US"
+}
